@@ -6,8 +6,8 @@ export async function Donut() {
       <Spline
         scene="https://prod.spline.design/a2EvQ48Vg9RaTkVF/scene.splinecode"
         style={{
-          width: "auto",
-          height: "auto",
+          width: "600px",
+          height: "512px",
           background: "transparent",
         }}
       />
