@@ -16,17 +16,15 @@ export function SectionTwo() {
 
         <div className="mt-6 md:max-w-[40%] md:ml-8 md:mb-8 flex flex-col justify-center p-8 md:p-0">
           <h3 className="font-medium text-xl md:text-2xl mb-4">
-            Financial overview
+            Modular Feature Building
           </h3>
 
           <p className="text-[#878787] mb-4 text-sm">
-            Bring your own bank. We connect to over 20 000+ banks in 33
-            countries across US, Canada, UK and Europe. Keep tabs on your
-            expenses and income, and gain a clearer picture of your business's
-            financial track record and current situation.
+            Assemble your business tools feature by feature; like building
+            Legos, to create the perfect solution to your problems.
           </p>
 
-          <div className="flex space-x-2 items-center mt-8">
+          {/* <div className="flex space-x-2 items-center mt-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={18}
@@ -41,7 +39,7 @@ export function SectionTwo() {
             <span className="text-[#878787] text-sm">
               Share financial reports
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

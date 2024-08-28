@@ -8,18 +8,15 @@ export function SectionThree() {
         <div className="flex flex-col md:space-x-12 md:flex-row">
           <div className="mt-6 md:max-w-[40%] md:mr-8 md:mb-8">
             <h3 className="font-medium text-xl md:text-2xl	mb-4">
-              Time track your projects
+              Tailored Dashboard Design
             </h3>
 
             <p className="text-[#878787] mb-4 text-sm">
-              Effortlessly boost productivity and collaboration with our
-              advanced <br />
-              time tracking solution: gain insightful project overviews and
-              foster seamless collaboration amongst your team for optimal
-              efficiency and success.
+              Customize your dashboard style to match your brand while
+              optimizing for readability and reducing eye strain.
             </p>
 
-            <div className="flex space-x-2 items-center mt-8 text-sm">
+            {/* <div className="flex space-x-2 items-center mt-8 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={18}
@@ -46,7 +43,7 @@ export function SectionThree() {
                 />
               </svg>
               <span className="text-[#878787]">Share with your clients</span>
-            </div>
+            </div> */}
           </div>
 
           <Image

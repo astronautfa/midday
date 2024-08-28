@@ -82,15 +82,15 @@ export default function Layout({ children }: { children: ReactElement }) {
       <body
         className={cn(
           `${GeistSans.variable} ${GeistMono.variable}`,
-          "bg-[#0C0C0C] overflow-x-hidden dark antialiased",
+          "bg-[#0C0C0C] overflow-x-hidden dark antialiased"
         )}
       >
-        <Header />
+        {/* <Header /> */}
         <main className="container mx-auto px-4 overflow-hidden md:overflow-visible">
           {children}
         </main>
         <FooterCTA />
-        <Footer />
+        {/* <Footer /> */}
         <Analytics />
         <DevMessage />
       </body>

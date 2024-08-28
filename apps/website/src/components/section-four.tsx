@@ -10,30 +10,35 @@ export function SectionFour() {
         <span className="text-[#F5F5F3] border border-border rounded-full self-start font-medium font-mono px-3 text-xs py-1.5 mb-4 bg-[#1D1D1D]">
           Coming soon
         </span>
-        <h4 className="font-medium text-xl md:text-2xl mb-4">Invoicing</h4>
+        <h4 className="font-medium text-xl md:text-2xl mb-4">
+          Efficient Workflow Management{" "}
+        </h4>
         <p className="text-[#878787] mb-[35px] text-sm">
-          We’re working hard to give you the best invoice solution. It will
-          feature web based invoices, live collaboration and project sync.
+          Streamline your workflow by personalizing widget layouts, keeping
+          critical information easily accessible and reducing time spent
+          navigating multiple screens
         </p>
 
-        <Image
+        {/* <Image
           src={invoicing}
           quality={100}
           className="object-contain mt-auto"
           alt="Invoice"
-        />
+        /> */}
       </div>
 
       <div className="border border-border md:basis-2/3 bg-[#121212] p-10 flex justify-between md:space-x-8 md:flex-row flex-col">
         <div className="flex flex-col md:basis-1/2">
-          <h4 className="font-medium text-xl md:text-2xl mb-4">Magic inbox</h4>
+          <h4 className="font-medium text-xl md:text-2xl mb-4">
+            Intuitive Navigation{" "}
+          </h4>
 
           <p className="text-[#878787] mb-4 text-sm">
-            Automatic matching of incoming invoices or receipts to the right
-            transaction.
+            Choose from a variety of pre-coded SaaS solutions to create a
+            sidebar that enhances user experience and accessibility.
           </p>
 
-          <ul className="list-decimal pl-4 space-y-3">
+          {/* <ul className="list-decimal pl-4 space-y-3">
             <li className="text-[#878787] text-sm">
               Use your personalized email address for your invoices and
               receipts.
@@ -51,17 +56,17 @@ export function SectionFour() {
           <CopyInput
             value="inbox.f3f1s@midday.ai"
             className="max-w-[240px] mt-8"
-          />
+          /> */}
         </div>
 
-        <div className="md:basis-1/2 mt-8 md:mt-0 -bottom-[8px] relative">
+        {/* <div className="md:basis-1/2 mt-8 md:mt-0 -bottom-[8px] relative">
           <Image
             src={inbox}
             quality={100}
             className="object-contain -bottom-[32px] relative"
             alt="Inbox"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
