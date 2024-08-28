@@ -7,9 +7,8 @@ export function Hero() {
   return (
     <section className="md:mt-[250px] relative md:min-h-[375px]">
       <div className="hero-slide-up flex flex-col mt-[240px] relative">
-     
         <div>
-        {/* <Link href="/updates/july-product-updates"> */}
+          {/* <Link href="/updates/july-product-updates"> */}
           <Button
             variant="outline"
             className="rounded-full border-border flex space-x-2 items-center"
@@ -27,7 +26,7 @@ export function Hero() {
               />
             </svg> */}
           </Button>
-        {/* </Link> */}
+          {/* </Link> */}
         </div>
 
         <h1 className="text-[30px] md:text-[90px] font-medium mt-6 leading-none">
@@ -36,7 +35,9 @@ export function Hero() {
         </h1>
 
         <p className="mt-4 md:mt-6 max-w-[600px] text-[#878787]">
-        Select from a wide range of per-developed SaaS solutions and seamlessly integrate them into a unified platform tailored to your business’s needs. 
+          Select from a wide range of per-developed SaaS solutions and
+          seamlessly integrate them into a unified platform tailored to your
+          business’s needs.
         </p>
 
         <div className="mt-8">
@@ -66,13 +67,13 @@ export function Hero() {
         </p>
       </div>
 
-    <div className="absolute lg:scale-110 h-full w-full -top-[300px] -right-[380px] lg:animate-[open-scale-up-fade_1.5s_ease-in-out]">
+      <div className="absolute lg:scale-110 h-full w-full -top-[300px] -right-[380px] lg:animate-[open-scale-up-fade_1.5s_ease-in-out]">
         <Suspense>
           <Donut />
         </Suspense>
-    </div>
-      <div className="scale-50 md:scale-100 -top-[500px] -right-[380px] pointer-events-none md:flex lg:animate-[open-scale-up-fade_1.5s_ease-in-out] absolute md:-right-[200px] xl:-right-[100px] md:-top-[200px]">
       </div>
+      {/* <div className="scale-50 md:scale-100 -top-[500px] -right-[380px] pointer-events-none md:flex lg:animate-[open-scale-up-fade_1.5s_ease-in-out] absolute md:-right-[200px] xl:-right-[100px] md:-top-[200px]">
+      </div> */}
     </section>
   );
 }

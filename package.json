@@ -1,7 +1,11 @@
 {
   "name": "midday",
   "private": true,
-  "workspaces": ["packages/*", "apps/*", "packages/email/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "packages/email/*"
+  ],
   "scripts": {
     "build": "turbo build",
     "clean": "git clean -xdf node_modules",
@@ -15,6 +19,7 @@
     "build:dashboard": "turbo build --filter=@midday/dashboard",
     "dev:engine": "turbo dev --filter=@midday/engine",
     "dev:website": "turbo dev --filter=@midday/website ",
+    "build:website": "turbo build --filter=@midday/website ",
     "dev:desktop": "turbo dev --filter=@midday/desktop",
     "jobs:dashboard": "turbo jobs --filter=@midday/dashboard",
     "format": "biome format --write .",
