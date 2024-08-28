@@ -10,7 +10,8 @@ import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 import type { ReactElement } from "react";
-import { baseUrl } from "./sitemap";
+
+const baseUrl = "http://www.oxcin.com";
 
 export const preferredRegion = ["fra1", "sfo1", "iad1"];
 
