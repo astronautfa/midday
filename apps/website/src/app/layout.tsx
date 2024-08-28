@@ -53,7 +53,7 @@ export default function Layout({ children }: { children: ReactElement }) {
           {children}
         </main>
         <FooterCTA />
-        {/* <Footer /> */}
+        <Footer />
         <Analytics />
         <DevMessage />
       </body>

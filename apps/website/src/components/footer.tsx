@@ -18,20 +18,9 @@ export function Footer() {
   return (
     <footer className="border-t-[1px] border-border px-4 md:px-6 pt-10 md:pt-16 bg-[#0C0C0C] overflow-hidden md:max-h-[820px]">
       <div className="container">
-        <div className="flex justify-between items-center border-border border-b-[1px] pb-10 md:pb-16 mb-12">
-          <Link href="/" className="scale-50 -ml-[52px] md:ml-0 md:scale-100">
-            <LogoLarge />
-            <span className="sr-only">Midday</span>
-          </Link>
-
-          <span className="font-normal md:text-2xl text-right">
-            Run your business smarter.
-          </span>
-        </div>
-
         <div className="flex flex-col md:flex-row w-full">
           <div className="flex flex-col space-y-8 md:space-y-0 md:flex-row md:w-6/12 justify-between leading-8">
-            <div>
+            {/* <div>
               <span className="font-medium">Features</span>
               <ul>
                 <li className="transition-colors text-[#878787]">
@@ -59,9 +48,9 @@ export function Footer() {
                   <Link href="/download">Download</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
-            <div>
+            {/* <div>
               <span>Resources</span>
               <ul>
                 <li className="transition-colors text-[#878787]">
@@ -86,9 +75,9 @@ export function Footer() {
                   <Link href="/feature-request">Feature Request</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
-            <div>
+            {/* <div>
               <span>Company</span>
               <ul>
                 <li className="transition-colors text-[#878787]">
@@ -104,10 +93,10 @@ export function Footer() {
                   <Link href="/oss-friends">OSS friends</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
-          <div className="md:w-6/12 flex mt-8 md:mt-0 md:justify-end">
+          {/* <div className="md:w-6/12 flex mt-8 md:mt-0 md:justify-end">
             <div className="flex md:items-end flex-col">
               <div className="flex items-start md:items-center flex-col md:flex-row space-y-6 md:space-y-0 mb-8">
                 <GithubStars />
@@ -121,13 +110,18 @@ export function Footer() {
                 <StatusWidget />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-
-      <h5 className="text-[#161616] text-[500px] leading-none text-center pointer-events-none">
-        midday
-      </h5>
+      <div className="flex justify-center items-center border-border border-b-[1px] pb-10 md:pb-16 mb-12">
+        <Link href="/" className="scale-50 -ml-[52px] md:ml-0 md:scale-100">
+          <LogoLarge />
+          <span className="sr-only">Oxcin</span>
+        </Link>
+        <h5 className="text-[#ac6f4ec2] text-[100px] pb-5 leading-none text-center pointer-events-none">
+          xcin
+        </h5>
+      </div>
     </footer>
   );
 }
