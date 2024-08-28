@@ -17,48 +17,11 @@ export const preferredRegion = ["fra1", "sfo1", "iad1"];
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Midday | Run your business smarter",
-    template: "%s | Midday",
+    default: "Oxcin | Unleash your tech stack",
+    template: "%s | Oxcin",
   },
   description:
-    "Midday provides you with greater insight into your business and automates the boring tasks, allowing you to focus on what you love to do instead.",
-  openGraph: {
-    title: "Midday | Run your business smarter",
-    description: "This is my portfolio.",
-    url: baseUrl,
-    siteName:
-      "Midday provides you with greater insight into your business and automates the boring tasks, allowing you to focus on what you love to do instead.",
-    locale: "en_US",
-    type: "website",
-    images: [
-      {
-        url: "https://cdn.midday.ai/opengraph-image.jpg",
-        width: 800,
-        height: 600,
-      },
-      {
-        url: "https://cdn.midday.ai/opengraph-image.jpg",
-        width: 1800,
-        height: 1600,
-      },
-    ],
-  },
-  twitter: {
-    title: "Midday | Run your business smarter",
-    description: "This is my portfolio.",
-    images: [
-      {
-        url: "https://cdn.midday.ai/opengraph-image.jpg",
-        width: 800,
-        height: 600,
-      },
-      {
-        url: "https://cdn.midday.ai/opengraph-image.jpg",
-        width: 1800,
-        height: 1600,
-      },
-    ],
-  },
+    "Oxcin helps you run your business smarter with your own customized tools",
   robots: {
     index: true,
     follow: true,
